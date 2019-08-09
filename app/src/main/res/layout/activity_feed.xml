@@ -11,13 +11,14 @@
         android:id="@+id/tbFeed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/lightBlue"
+        android:background="@android:color/white"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:title="@string/barFeed"
-        app:titleTextColor="@android:color/white" />
+        app:titleTextColor="@android:color/black" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:background="@color/lightBlue"
         android:id="@+id/rvListaFeed"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

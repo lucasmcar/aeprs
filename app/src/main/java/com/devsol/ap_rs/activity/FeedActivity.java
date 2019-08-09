@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -49,6 +50,9 @@ public class FeedActivity extends AppCompatActivity {
         rvFeed.setLayoutManager( layoutManager );
         rvFeed.setHasFixedSize( true );
         rvFeed.setAdapter( listaFeed );
+        DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(rvFeed.getContext(),
+                ((LinearLayoutManager) layoutManager).getOrientation());
+        rvFeed.addItemDecoration(dividerItemDecoration);
 
         //Evento de clique da lista
         rvFeed.addOnItemTouchListener(
