@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menuPerdi"
+        android:title="@string/menuPerdi"
+        android:icon="@drawable/ic_add_branco_24dp"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/menuEncontrei"
+        android:title="@string/menuEncontrei"
+        android:icon="@drawable/file_find"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/menuPerfil"
+        android:title="@string/menuPerfil"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menuSair"
+        android:title="@string/menuSair"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menuDoe"
+        android:title="Faça uma doação"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menuAjuda"
+        android:title="Ajuda"
+        app:showAsAction="never"/>
+
+</menu>

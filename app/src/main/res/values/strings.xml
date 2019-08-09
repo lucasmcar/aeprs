@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">A&amp;P - RS</string>
+
+    <!--Titulos barra-->
+    <string name="barCadastrar">Cadastro</string>
+    <string name="barFeed">Itens Encontrados</string>
+    <string name="barDetalhes">Detalhes do item</string>
+
+    <!--icones menu-->
+    <string name="menuPerdi">Perdi um item</string>
+    <string name="menuEncontrei">Encontrei um item</string>
+    <string name="menuPerfil">Ver meu perfil</string>
+    <string name="menuSair">Sair</string>
+
+    <!--Textos de descrição de imagem-->
+    <string name="intro_1_img">Contém icone de uma lupa</string>
+    <string name="intro_2_img">Contém icone com dinheiro</string>
+    <string name="intro_3_img">Contém icone com uma lupa que encontrou algo</string>
+
+    <!--Textos de apresentação-->
+    <string name="intro_titulo_1">Perdeu?</string>
+    <string name="intro_describ_1">
+        Você poderá ver seu objeto perdido \n em nosso banco de dados, \n
+        cadastrado por outra pessoa que o encontrou.
+    </string>
+
+    <string name="intro_titulo_2">Recompese!</string>
+    <string name="intro_describ_2">
+        O objeto é importante?
+        Ofereça recompensa para quem encontrar. \n
+        Obs.:Não é obrigatório.
+    </string>
+
+    <string name="intro_titulo_3">Encontrou?</string>
+    <string name="intro_describ_3">
+        Encontrou algum objeto perdido e gostaria de devolver? \n
+        Poste aqui e você será notificado caso o dono esteja a procura.
+    </string>
+
+    <string name="intro_titulo_4">Encontrou o dono?</string>
+    <string name="intro_describ_4">
+        O melhor a fazer, é combinar a entrega \n
+        em um local seguro caso esteja na rua, ou deixar em um local \n
+        próximo para que ela possa pegar seu objeto.
+    </string>
+
+    <string name="intro_login_titulo">Vamos começar!</string>
+    <string name="intro_opcao">Cadastre-se ou acesse seu perfil.</string>
+    <string name="email">usúario@email.com</string>
+    <string name="senha">Digite sua senha</string>
+    <string name="botao_acessar">Acesse sua conta</string>
+    <string name="botao_cadastrar">Não possui cadastro? Clique aqui.</string>
+
+    <string name="describItemTitulo">Descrição do Item Encontrado</string>
+    <string name="describItem">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+        blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
+        sint occaecati cupiditate non provident, similique sunt in culpa
+        qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum
+        quidem rerum facilis est et expedita distinctio.
+    </string>
+
+    <string name="objData">Dados</string>
+    <string name="nItensEncontrados">Nº de Itens Encotrados:</string>
+    <string name="dataEncontrados">Data dos itens encontrados:</string>
+
+    <!--botoes-->
+    <string name="btLigar">Ligue</string>
+    <string name="btEmail">Email</string>
+</resources>
