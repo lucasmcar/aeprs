@@ -16,7 +16,9 @@ public class DetalhesEncotradoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalhes_encotrado);
 
-
+        tbEncontradoDetalhe = findViewById(R.id.tbDetalhes);
+        setSupportActionBar( tbEncontradoDetalhe );
+        getSupportActionBar().setDisplayHomeAsUpEnabled( true );
 
     }
 }
